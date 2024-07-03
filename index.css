@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    color: white
+}
+
+body {
+    background-color: #FFF2E4;
+}
+
+#my-nav {
+    color: white;
+    background: 
+        linear-gradient(
+            rgba(0,0,0,0.4),
+            rgba(0,0,0,0.4)
+        );
+}
+
+#landing {
+    background: 
+        linear-gradient(
+            rgba(177, 169, 169, 0.3),
+            rgba(177, 169, 169, 0.3)
+        ),
+        url(./images/lee-campbell-DtDlVpy-vvQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#landing h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "Kaushan Script";
+    font-size: 3rem;
+    color: #e4ae70;
+}
+
+#landing h3 , #landing p {
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.t-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.profile-photo {
+    width: 300px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+    border-radius: 200px;
+    object-fit: cover;
+    border: 1px solid #333; /* Optional: Add a border */
+}
+
+.landing-gradient {
+    background: 
+        linear-gradient(
+            rgba(177, 169, 169, 0.4),
+            rgba(177, 169, 169, 0.4)
+        );
+}
+
+#contact-img {
+    background: url(./images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#contact h2 {
+    font-size: 30px;
+    line-height: 24.38px;
+    text-align: left;
+    border-radius: 0;
+}
+
+#contact label {
+    font-weight: 600;
+}
+
+#submit-button {
+    padding: 12px 32px 12px 32px;
+    gap: 8px;
+    border-radius: 25px;
+    opacity: 0px;
+    width: 140px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#contact a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#projects p {
+    text-align: justify;
+}
+
+.bg-light-orange {
+    background-color:#B59066;
+}
+
+.c-light-orange {
+    color:#B59066;
+}
+
+#tools {
+    background: 
+        linear-gradient(
+            rgba(0,0,0,0.1),
+            rgba(0,0,0,0.1)
+        );
+}
+
+#my-nav a:after {
+    content: "";
+    position: absolute;
+    background-color: #B59066;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s;
+}
+
+#my-nav a:hover:after {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
